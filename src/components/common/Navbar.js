@@ -13,11 +13,11 @@ export const Navbar = () => {
 
                 </a>
                 <div className='flex items-center'>
-                    <a href="#home" className='mx-4 hover:text-primary text-xl'>HOME</a>
-                    <a href="#about" className='mx-4 hover:text-primary text-xl'>ABOUT</a>
-                    <a href="#services" className='mx-4 hover:text-primary text-xl'>SERVICES</a>
-                    <a href="#projects" className='mx-4 hover:text-primary text-xl'>PROJECTS</a>
-                    <a href="#contact" className='mx-4 hover:text-primary text-xl'>CONTACT</a>
+                    <a href="#home" className='mx-4 hover:text-primary text-xl'>Home</a>
+                    <a href="#about" className='mx-4 hover:text-primary text-xl'>About</a>
+                    <a href="#services" className='mx-4 hover:text-primary text-xl'>Services</a>
+                    <a href="#projects" className='mx-4 hover:text-primary text-xl'>Projects</a>
+                    <a href="#contact" className='mx-4 hover:text-primary text-xl'>Contact</a>
                 </div>
             </div>
         </nav>
