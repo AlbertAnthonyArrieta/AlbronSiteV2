@@ -10,16 +10,19 @@ export const ServiceSection = () => {
             title: "Engineering Design",
             paragraph: "We are a team of professional Mechanical Designers with extensive experience in Oil & Gas, Power Generation and various equipment fabrication. Our main goal is to provide the highest quality mechanical design and drawing package on schedule and on budget.",
             iconW: "w-20",
+            icon: <EngIcon />
         },
         {
             title: "Drafting Services",
             paragraph: "",
-            iconW: "w-20"
+            iconW: "w-20",
+            icon: <DraftIcon />
         },
         {
             title: "Cost Effectiveness",
             paragraph: "",
-            iconW: "w-16"
+            iconW: "w-16",
+            icon: <CostIcon />
         }
     ]
 
