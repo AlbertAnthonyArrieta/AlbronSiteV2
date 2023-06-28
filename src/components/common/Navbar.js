@@ -2,7 +2,7 @@ import logo from '../../images/logo.png'
 
 export const Navbar = () => {
     return (
-        <nav className='bg-black text-white py-2'>
+        <nav className='bg-black text-white py-2 sticky top-0'>
             <div className='container mx-auto flex justify-between'>
                 <a href="#home" className='flex inline-block items-center gap-3'>
                     <img className='w-20' src={logo} />
