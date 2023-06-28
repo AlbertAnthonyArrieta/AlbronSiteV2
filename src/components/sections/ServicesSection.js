@@ -28,7 +28,7 @@ export const ServiceSection = () => {
 
     return(
         <div className='bg-ultrablack py-20'>
-            <h1 className='text-white text-5xl font-semibold'>Our Services</h1>
+            <h1 className='text-white text-5xl font-semibold py-20 '>Our Services</h1>
             <div className=' px-60 flex flex-row gap-10 pt-10'>
                 {services.map((s) => (
                     <ServiceTile title={s.title} paragraph={s.paragraph} iconW={s.iconW} icon={s.icon} />
