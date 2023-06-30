@@ -3,7 +3,7 @@ import Buttonlg from '../common/Button';
 
 export const HeroSection = () => {
     return (
-        <div className='bg-ultrablack'>
+        <div className='bg-ultrablack py-20'>
             <div className='flex'>
                 <div className="flex justify-center flex-col gap-10 mx-24">
                     <div className='flex items-start'>

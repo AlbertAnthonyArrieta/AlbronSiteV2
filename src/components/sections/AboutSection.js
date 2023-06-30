@@ -1,10 +1,11 @@
 import p2 from '../../images/p2.jpg'
 import logo from '../../images/logo.png'
+import { Header } from '../common/Header'
 
 export const AboutSection = () => {
     return (
-        <div className='bg-ultrablack'>
-            <h1 className='text-white text-5xl font-semibold py-20'>About Us</h1>
+        <div id='about' className='bg-ultrablack py-20'>
+            <Header text="About Us" />
 
             <div className='flex container mx-auto gap-14 py-20 items-center'>
                 <div className='flex-1'>

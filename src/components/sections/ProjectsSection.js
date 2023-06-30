@@ -1,3 +1,5 @@
+import { Header } from "../common/Header"
+
 import p1 from "../../images/p1.jpg"
 import p2 from "../../images/p2.jpg"
 import p3 from "../../images/p3.jpg"
@@ -6,8 +8,8 @@ import p5 from "../../images/p5.jpg"
 import p6 from "../../images/p6.png"
 export const ProjectsSection = () => {
     return (
-        <div className='bg-ultrablack'>
-            <h1 className='text-white text-5xl font-semibold py-20'>Project Samples</h1>
+        <div id='projects' className='bg-ultrablack py-20'>
+            <Header text='Project Gallery' />
             <div class="container mx-auto">
                 <div class="-m-1 flex flex-wrap md:-m-2">
                     <div class="flex w-1/2 flex-wrap">

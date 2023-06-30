@@ -8,7 +8,7 @@ import ContactSection from './components/sections/ContactSection';
 
 function App() {
   return (
-    <div className="App">
+    <div  id='home' className="App">
       <Navbar />
       <HeroSection />
       <ServiceSection />
